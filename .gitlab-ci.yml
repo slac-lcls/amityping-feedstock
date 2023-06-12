@@ -4,6 +4,7 @@ stages:
   - build
 
 build_stage:
+  stage: build
   before_script:
     - apt-get update
     - conda init bash
