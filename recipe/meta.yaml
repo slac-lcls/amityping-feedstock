@@ -1,5 +1,5 @@
 {% set name = "amityping" %}
-{% set version = "1.1.12" %}
+{% set version = "1.1.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/slac-lcls/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: e00e7102a53fa6ee343f018669f6b811d703a2da4728b497f80579bf89efbd3c
+  sha256: i570e0a947615fcdcfaec968ec273e5aa73ad48bed853bb7c83d57128951a8914
 
 build:
   skip: True  # [win]
