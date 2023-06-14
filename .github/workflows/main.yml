@@ -1,7 +1,7 @@
 name: conda_build_and_upload
 on:
   push:
-    tag:
+    tags:
       - build*
 
 jobs:
